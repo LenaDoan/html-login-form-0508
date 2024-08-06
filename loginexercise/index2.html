@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LoginForm</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f7f7f7;
+            height: 100%;
+
+        }
+        .body-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 2px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 280px;
+
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .pw-container {
+            position: relative;
+        }
+        .pw-container .showbtn {
+            position: absolute;
+            top: 50%;
+            right: 5px;
+            transform: translateY(-30%);
+        }
+
+        .login-button {
+            background-color: blue;
+            border: none;
+            border-radius: 4px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: blue;
+            border: none;
+            color: white;
+            margin: 10px;
+        }
+        a {
+            text-decoration: none; /* Loại bỏ gạch chân */
+            color: #0066cc; /* Tùy chỉnh màu sắc của link */
+        }
+        .a{
+            float: inline-end;
+        }
+        p{
+            text-align: center;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="body-container">
+        <h2>Login</h2>
+        <form>
+            <label for="email">E-Mail Address</label><br>
+            <input type="text" id="email" required>
+            <div class="pw-container">
+                <label for="password">Password</label>
+                <a class="a" href="https://www.w3schools.com/html/html_links.asp">Forgot Password?</a><br>
+                <input type="password" id="password" required>
+                <span class="showbtn"><button style="border-radius: 4px;">Show</button></span>
+            </div>
+        </form>
+        <input type="checkbox">
+        <label for="password">Remember Me</label>
+        <div class="login-button">
+            <button>Login</button>
+        </div>
+        <p>Don't have an account? <a href="https://www.w3schools.com/html/html_links.asp">Create One</a></p>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LoginForm</title>
+    <style>
+        .body-container {
+            align-items: center;
+            background-color: #f7f7f7;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 2px;
+            height: 400;
+        }
+
+        .box {
+            background-color: white;
+            height: 300px;
+            border-radius: 4px;
+            width: 350px;
+            box-shadow: inset;
+
+        }
+
+        .user-info {
+            margin: 20px;
+
+        }
+
+        .pw-container {}
+
+        .login-button {
+            background-color: blue;
+            border: none;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: blue;
+            border: none;
+            color: white;
+            margin: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-container">
+        <div class="box">
+            <h2>Login</h2>
+            <div class="user-info">
+                <form>
+                    <label for="email">E-Mail Address</label><br>
+                    <input type="text" id="email" required>
+                    <div class="pw-container">
+                        <label for="password">Password</label>
+                        <a href="https://www.w3schools.com/html/html_links.asp">Forgot Password</a><br>
+                        <input type="text" id="password" required>
+                        <span><button>Show</button></span>
+                    </div>
+                    <input type="checkbox">
+                    <label for="password">Remember Me</label>
+                    <div class="login-button">
+                        <button>Login</button>
+                    </div>
+                    <p>Don't have an account? </p>
+                    <a href="https://www.w3schools.com/html/html_links.asp">Create One</a>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
