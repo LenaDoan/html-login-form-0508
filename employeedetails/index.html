@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employrr Details</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+
+        .body-container {
+            border: 1.5px solid;
+            box-shadow: grey;
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            position: relative;
+
+        }
+
+        .section-title {
+            font-size: 20px;
+            padding-left: 0px;
+            position: absolute;
+            top: -15px;
+            background-color: white;
+
+        }
+
+        .el {
+            margin: 15px;
+        }
+
+        input[type="text"] {
+            width: 200px;
+        }
+
+        input[type="label"] {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+
+        <div class="body-container">
+            <div class="section-title">Employee Details</div>
+            <div class="el">
+                <label for="firstname">First name: </label>
+                <input type="text" id="fname"><br>
+            </div>
+            <div class="el">
+                <label for="lname">Last name: </label>
+                <input type="text" id="lname"><br>
+            </div>
+            <div class="el">
+                <input type="radio" name="gender">
+                <label for="name" name="gender">Male</label>
+                <input type="radio" name="gender">
+                <label for="female">Female</label><br>
+            </div>
+            <div class="el">
+                <label for="employeeID">Employee ID: </label>
+                <input type="text" id="eid"><br>
+            </div>
+            <div class="el">
+                <label for="destination">Destination: </label>
+                <input type="text" id="eid"><br>
+            </div>
+            <div class="el">
+                <label for="phone">Phone number: </label>
+                <input type="text" id="eid"><br>
+            </div>
+            <div class="el">
+                <button>Submit</button>
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>
